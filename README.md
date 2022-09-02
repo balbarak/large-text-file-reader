@@ -1,2 +1,2 @@
 # large-text-file-reader
-App can open peta bytes of text files
+App can open tera bytes of text files
