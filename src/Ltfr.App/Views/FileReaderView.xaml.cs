@@ -35,10 +35,13 @@ namespace Ltfr.App
 
         private void OnTextLinesChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
         {
+
             if (_autoScroll)
             {
                 _scrollViewer.ScrollToBottom();
             }
+
+           
         }
 
         private void OnScrollChanged(object sender, ScrollChangedEventArgs e)

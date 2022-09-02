@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:Ltfr.App"
              StartupUri="Views/MainWindow.xaml">
     <Application.Resources>
-         
+
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        <local:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+        <local:InvertedBooleanToVisibilityConverter x:Key="InvertedBooleanToVisibilityConverter" />
+        
     </Application.Resources>
 </Application>
